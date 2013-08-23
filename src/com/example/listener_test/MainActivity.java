@@ -51,7 +51,7 @@ public class MainActivity extends Activity implements OnTouchListener{
 				/**
 				 * 
 				 * 编辑通知的第一个方式
-				 * 
+				 * 只是显示，并没有什么事件响应
 				 * */
 				
 				Notification note = new Notification();
@@ -70,6 +70,7 @@ public class MainActivity extends Activity implements OnTouchListener{
 				/**
 				 * 
 				 * 编辑通知的第二个方式
+				 * 添加了事件响应
 				 * 
 				 * */
 				Notification note2 = new Notification(R.drawable.advise2,"显示第二个通知",System.currentTimeMillis());
